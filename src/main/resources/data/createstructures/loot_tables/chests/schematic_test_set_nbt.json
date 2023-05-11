@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:schematic",
+          "functions": [
+            {
+              "tag": "{Owner:\"Dev\",Anchor:{X:0,Y:0,Z:0},Bounds:[5,4,5],Deployed:0b,File:\"waterwheel_test.nbt\",Rotation:\"NONE\",Mirror:\"NONE\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}
