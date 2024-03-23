@@ -7,9 +7,32 @@
         {
           "type": "minecraft:item",
           "name": "create:schematic",
+          "weight": 1,
           "functions": [
             {
               "tag": "{Owner:\"Dev\",Anchor:{X:0,Y:0,Z:0},Bounds:[10,6,6],Deployed:0b,File:\"obsidian_generator.nbt\",Rotation:\"NONE\",Mirror:\"NONE\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:schematic",
+          "weight": 1,
+          "functions": [
+            {
+              "tag": "{Owner:\"Dev\",Anchor:{X:0,Y:0,Z:0},Bounds:[11,5,8],Deployed:0b,File:\"abandoned_smithy.nbt\",Rotation:\"NONE\",Mirror:\"NONE\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:schematic",
+          "weight": 1,
+          "functions": [
+            {
+              "tag": "{Owner:\"Dev\",Anchor:{X:0,Y:0,Z:0},Bounds:[13,9,10],Deployed:0b,File:\"desert_tinkerer_1.nbt\",Rotation:\"NONE\",Mirror:\"NONE\"}",
               "function": "minecraft:set_nbt"
             }
           ]
