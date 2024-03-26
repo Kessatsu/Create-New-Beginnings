@@ -74,9 +74,9 @@ public class VillageAddition {
 
         // Adds our piece to all village houses pool
         // Note, the resourcelocation is getting the pool files from the data folder. Not assets folder.
-//        addBuildingToPool(templatePoolRegistry, processorListRegistry,
-//                new ResourceLocation("minecraft:village/desert/houses"),
-//                "createstructures:desert_tinkerer_1", 500);
+        addBuildingToPool(templatePoolRegistry, processorListRegistry,
+                new ResourceLocation("minecraft:village/plains/houses"),
+                "createstructures:village/plains/houses/plains_tinkerer_1", 10);
 
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
                 new ResourceLocation("minecraft:village/desert/streets"),
