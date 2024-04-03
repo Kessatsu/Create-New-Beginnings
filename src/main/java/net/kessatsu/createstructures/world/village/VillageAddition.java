@@ -86,9 +86,10 @@ public class VillageAddition {
         //        new ResourceLocation("minecraft:village/snowy/houses"),
         //        "modid:structure_nbt_resourcelocation", 5);
         //
-        //addBuildingToPool(templatePoolRegistry, processorListRegistry,
-        //        new ResourceLocation("minecraft:village/savanna/houses"),
-        //        "modid:structure_nbt_resourcelocation", 5);
+        addBuildingToPool(templatePoolRegistry, processorListRegistry,
+                new ResourceLocation("minecraft:village/savanna/houses"),
+                "createstructures:village/savanna/houses/savanna_watermill_farm_1", 10);
+
         //
         //addBuildingToPool(templatePoolRegistry, processorListRegistry,
         //        new ResourceLocation("minecraft:village/taiga/houses"),
