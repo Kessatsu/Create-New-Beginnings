@@ -82,10 +82,10 @@ public class VillageAddition {
                 new ResourceLocation("minecraft:village/desert/streets"),
                 "createstructures:village/desert/streets/straight_windmill_01", 10);
 
-        //addBuildingToPool(templatePoolRegistry, processorListRegistry,
-        //        new ResourceLocation("minecraft:village/snowy/houses"),
-        //        "modid:structure_nbt_resourcelocation", 5);
-        //
+        addBuildingToPool(templatePoolRegistry, processorListRegistry,
+                new ResourceLocation("minecraft:village/snowy/houses"),
+                "createstructures:village/snowy/houses/snowy_sawmill_house_1", 10);
+
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
                 new ResourceLocation("minecraft:village/savanna/houses"),
                 "createstructures:village/savanna/houses/savanna_watermill_farm_1", 10);
