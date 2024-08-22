@@ -76,25 +76,25 @@ public class VillageAddition {
         // Note, the resourcelocation is getting the pool files from the data folder. Not assets folder.
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
                 new ResourceLocation("minecraft:village/plains/houses"),
-                "createstructures:village/plains/houses/plains_tinkerer_1", 10);
+                "createstructures:village/plains/houses/plains_tinkerer_1", 4);
 
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
                 new ResourceLocation("minecraft:village/desert/streets"),
-                "createstructures:village/desert/streets/straight_windmill_01", 10);
+                "createstructures:village/desert/streets/straight_windmill_01", 2);
 
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
                 new ResourceLocation("minecraft:village/snowy/houses"),
-                "createstructures:village/snowy/houses/snowy_sawmill_house_1", 10);
+                "createstructures:village/snowy/houses/snowy_sawmill_house_1", 4);
 
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
                 new ResourceLocation("minecraft:village/savanna/houses"),
-                "createstructures:village/savanna/houses/savanna_watermill_farm_1", 10);
+                "createstructures:village/savanna/houses/savanna_watermill_farm_1", 4);
 
-        //
-        //addBuildingToPool(templatePoolRegistry, processorListRegistry,
-        //        new ResourceLocation("minecraft:village/taiga/houses"),
-        //        "modid:structure_nbt_resourcelocation", 5);
-        //
+
+        addBuildingToPool(templatePoolRegistry, processorListRegistry,
+                new ResourceLocation("minecraft:village/taiga/streets"),
+                "createstructures:village/taiga/streets/straight_cook_house_01", 4);
+
         //addBuildingToPool(templatePoolRegistry, processorListRegistry,
         //        new ResourceLocation("minecraft:village/plains/houses"),
         //        "modid:structure_nbt_resourcelocation", 5);
