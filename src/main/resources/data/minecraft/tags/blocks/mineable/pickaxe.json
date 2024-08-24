@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "createstructures:zircon_ore",
-    "createstructures:deepslate_zircon_ore",
-    "createstructures:zircon_block"
-  ]
-}
