@@ -70,6 +70,6 @@ This is just a very early access release; there are many more plans but it will 
 [[dependencies.createnewbeg]]
     modId="create"
     mandatory=true
-    versionRange="[0.5.1.b,)"
+    versionRange="[0.5.1.f,)"
     ordering="NONE"
     side="BOTH"
