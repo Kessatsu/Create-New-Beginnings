@@ -1,0 +1,15 @@
+{
+  "name": "createnewbeg:lighthouse/lighthouse_room",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "createnewbeg:lighthouse_room_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
