@@ -80,7 +80,7 @@ public class VillageAddition {
         // Note, the resourcelocation is getting the pool files from the data folder. Not assets folder.
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
                 ResourceLocation.tryParse("minecraft:village/plains/houses"),
-                "createnewbeg:village/plains/houses/plains_tinkerer_1", 400);
+                "createnewbeg:village/plains/houses/plains_tinkerer_1", 4);
 
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
                 ResourceLocation.tryParse("minecraft:village/desert/streets"),
