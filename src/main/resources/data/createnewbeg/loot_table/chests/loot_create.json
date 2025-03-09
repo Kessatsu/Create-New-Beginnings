@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "createnewbeg:chests/loot_cogwheels",
+              "value": "createnewbeg:chests/loot_cogwheels",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
@@ -19,7 +19,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "createnewbeg:chests/loot_chain_drives",
+              "value": "createnewbeg:chests/loot_chain_drives",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "createnewbeg:chests/loot_belts"
+              "value": "createnewbeg:chests/loot_belts"
             }
           ]
         }
@@ -124,7 +124,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "createnewbeg:chests/loot_mechanical_piston"
+          "value": "createnewbeg:chests/loot_mechanical_piston"
         },
         {
           "type": "minecraft:empty",
