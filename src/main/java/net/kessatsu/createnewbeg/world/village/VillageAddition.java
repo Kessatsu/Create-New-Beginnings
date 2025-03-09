@@ -11,17 +11,20 @@ import net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement;
 import net.minecraft.world.level.levelgen.structure.pools.StructurePoolElement;
 import net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorList;
-import net.minecraftforge.event.server.ServerAboutToStartEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
+//import net.minecraftforge.event.server.ServerAboutToStartEvent;
+//import net.minecraftforge.eventbus.api.SubscribeEvent;
+//import net.minecraftforge.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.event.server.ServerAboutToStartEvent;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Mod.EventBusSubscriber(modid = CreateNewBeg.MOD_ID)
+@EventBusSubscriber(modid = CreateNewBeg.MOD_ID)
 public class VillageAddition {
     private static final ResourceKey<StructureProcessorList> EMPTY_PROCESSOR_LIST_KEY = ResourceKey.create(
-            Registries.PROCESSOR_LIST, new ResourceLocation("minecraft", "empty"));
+            Registries.PROCESSOR_LIST, ResourceLocation.fromNamespaceAndPath("minecraft", "empty"));
 
     /**
      * Adds the building to the targeted pool.
@@ -76,24 +79,23 @@ public class VillageAddition {
         // Adds our piece to all village houses pool
         // Note, the resourcelocation is getting the pool files from the data folder. Not assets folder.
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
-                new ResourceLocation("minecraft:village/plains/houses"),
-                "createnewbeg:village/plains/houses/plains_tinkerer_1", 4);
+                ResourceLocation.tryParse("minecraft:village/plains/houses"),
+                "createnewbeg:village/plains/houses/plains_tinkerer_1", 400);
 
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
-                new ResourceLocation("minecraft:village/desert/streets"),
+                ResourceLocation.tryParse("minecraft:village/desert/streets"),
                 "createnewbeg:village/desert/streets/straight_windmill_01", 2);
 
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
-                new ResourceLocation("minecraft:village/snowy/houses"),
+                ResourceLocation.tryParse("minecraft:village/snowy/houses"),
                 "createnewbeg:village/snowy/houses/snowy_sawmill_house_1", 4);
 
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
-                new ResourceLocation("minecraft:village/savanna/houses"),
+                ResourceLocation.tryParse("minecraft:village/savanna/houses"),
                 "createnewbeg:village/savanna/houses/savanna_watermill_farm_1", 4);
 
-
         addBuildingToPool(templatePoolRegistry, processorListRegistry,
-                new ResourceLocation("minecraft:village/taiga/streets"),
+                ResourceLocation.tryParse("minecraft:village/taiga/streets"),
                 "createnewbeg:village/taiga/streets/straight_cook_house_01", 4);
 
         //addBuildingToPool(templatePoolRegistry, processorListRegistry,
